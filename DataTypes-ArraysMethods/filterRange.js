@@ -12,6 +12,6 @@ alert( arr ); // 5,3,8,1 (not modified) */
 // My Solution:
 function filterRange(arr, a, b) {
 	// n is the number, so if n is greater or equal than a AND lower or equal than b
-	// it willfilter that number
+	// it will filter that number
 	return arr.filter((n) => n >= a && n <= b);
 }
