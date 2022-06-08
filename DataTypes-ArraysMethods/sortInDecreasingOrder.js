@@ -1,6 +1,6 @@
 // Order an Array in decreasing order
-// My solution:
 
+// My solution:
 function superSort(arr) {
 	return arr.sort((a, b) => b - a);
 }
