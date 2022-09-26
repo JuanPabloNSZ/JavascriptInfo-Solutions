@@ -17,4 +17,4 @@ function checkAge(age) {
 	return confirm('Did parents allow you?');
 }
 // Is there any difference in the behavior of these two variants?
-//* My solution: There is no difference between the two variants. In both functions, the code runs, checking if the parameter age is greater than 18; if the condition is not fulfilled, the confirm method is returned.
+//* My solution: There is no difference between the two variants. In both functions the code runs checking if the parameter age is greater than 18; if the condition is not fulfilled, the confirm method is returned.
